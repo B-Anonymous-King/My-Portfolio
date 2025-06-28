@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayya Raja Ramana - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cursor
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div> -->
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <span>Raja Ramana</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#ai-tools" class="nav-link">AI Tools</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#ai-tools" class="mobile-link">AI Tools</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h4 class="subtitle">Hi, my name is</h4>
+            <h1 class="title">Bayya Raja Ramana</h1>
+            <div class="typed-container">
+                <span class="typed-text"></span>
+            </div>
+            <p class="description">
+                A passionate data analyst with expertise in Python, Excel, and machine learning.
+                Currently focused on analyzing market trends and developing AI-powered solutions.
+                Graduate from NIT Hamirpur with a B.Tech in Mathematics and Scientific Computing.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                <a href="#projects" class="btn secondary-btn">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-header">
+            <h2>Experience</h2>
+            <p>My professional journey and achievements</p>
+        </div>
+        <div class="experience-grid">
+            <div class="exp-card">
+                <div class="exp-header">
+                    <h3>Operations Executive</h3>
+                    <span class="company">RoaDo</span>
+                    <span class="duration">May 2024 - July 2024</span>
+                </div>
+                <ul>
+                    <li>Enhanced platform usability, improving customer satisfaction by 15%</li>
+                    <li>Managed data for 1,500+ Royal Enfield showrooms</li>
+                    <li>Supported 200+ drivers and dispatchers</li>
+                </ul>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-header">
+                    <h3>Business Analyst</h3>
+                    <span class="company">EduStation</span>
+                    <span class="duration">July 2024 - August 2024</span>
+                </div>
+                <ul>
+                    <li>Generated leads increasing revenue by 20%</li>
+                    <li>Created performance reports and sales analytics</li>
+                    <li>Prepared business documentation and MOUs</li>
+                </ul>
+            </div>
+
+            <div class="exp-card">
+                <div class="exp-header">
+                    <h3>Front-End Intern</h3>
+                    <span class="company">RINL Visakhapatnam</span>
+                    <span class="duration">June 2023 - July 2023</span>
+                </div>
+                <ul>
+                    <li>Developed workflow automation front-end</li>
+                    <li>Analyzed departmental processes</li>
+                    <li>Technologies: Python, HTML</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Dashboard Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>Skills Dashboard</h2>
+            <p>Interactive overview of my technical expertise</p>
+        </div>
+        <div class="skills-container">
+            <div class="skills-categories">
+                <button class="skill-category active" data-category="technical">Technical Skills</button>
+                <button class="skill-category" data-category="tools">Tools & Software</button>
+                <button class="skill-category" data-category="languages">Programming</button>
+                <button class="skill-category" data-category="certifications">Certifications</button>
+            </div>
+            
+            <div class="skills-content">
+                <!-- Technical Skills -->
+                <div class="skill-panel active" id="technical">
+                    <div class="skill-grid">
+                        <div class="skill-item" data-skill="Data Analysis">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Data Analysis</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">80%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Machine Learning">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Machine Learning</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="73"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">73%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Statistical Analysis">
+                            <div class="skill-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Statistical Analysis</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="67"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">67%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Data Visualization">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Data Visualization</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="76"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">76%</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Software -->
+                <div class="skill-panel" id="tools">
+                    <div class="skill-grid">
+                        <div class="skill-item" data-skill="Microsoft Excel">
+                            <div class="skill-icon">
+                                <i class="fas fa-table"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Microsoft Excel</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">88%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">88%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="SQL">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="82"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">82%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="Power BI">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Power BI</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="78"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">78%</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="skill-panel" id="languages">
+                    <div class="skill-grid">
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">88%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="HTML/CSS">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML/CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">75%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="JavaScript">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">70%</span> -->
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-skill="R">
+                            <div class="skill-icon">
+                                <i class="fas fa-r-project"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C ++</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="65"></div>
+                                </div>
+                                <!-- <span class="skill-percentage">65%</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="skill-panel" id="certifications">
+                    <div class="certifications-grid">
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Microsoft Excel</h4>
+                                <p>Udemy Certification</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Responsive Web Design</h4>
+                                <p>FreeCodeCamp</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>B.Tech Mathematics & Scientific Computing</h4>
+                                <p>NIT Hamirpur</p>
+                                <span class="cert-date">2020-2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <p>Showcasing my analytical and technical skills</p>
+        </div>
+        <div class="projects-grid">
+            <!-- EV Market Analysis -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Electric Vehicles Market Analysis</h3>
+                    <p>Analyzed 100,000+ EV registrations to identify trends and forecast market growth.</p>
+                    <ul>
+                        <li>70% preference for BEVs over PHEVs</li>
+                        <li>60% market dominance by Tesla</li>
+                        <li>Created 10+ actionable visualizations</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Data Analysis</span>
+                        <span>Visualization</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AHP Project -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>NIT Hamirpur Selection Criteria Analysis</h3>
+                    <p>Applied AHP method to analyze student institute selection parameters.</p>
+                    <ul>
+                        <li>Analyzed 9 selection parameters</li>
+                        <li>Processed 230+ student responses</li>
+                        <li>Applied Fuzzy Logic for accuracy</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Statistical Analysis</span>
+                        <span>AHP</span>
+                        <span>Fuzzy Logic</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Credit Card Default -->
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Credit Card Default Prediction</h3>
+                    <p>Built ML models to predict credit card defaulters.</p>
+                    <ul>
+                        <li>Implemented multiple ML algorithms</li>
+                        <li>Achieved 97.97% accuracy with KNN</li>
+                        <li>Feature engineering & selection</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                        <span>Data Science</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/B-Anonymous-King/CreditCardDefaulters" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools Section -->
+    <section id="ai-tools" class="ai-tools">
+        <div class="section-header">
+            <h2>AI Tools Collection</h2>
+            <p>Curated list of 9,000+ AI tools for various purposes</p>
+        </div>
+        <div class="tools-categories">
+            <div class="category">
+                <i class="fas fa-pen"></i>
+                <h3>Content Creation</h3>
+                <p>Writing, editing, and content generation tools</p>
+            </div>
+            <div class="category">
+                <i class="fas fa-image"></i>
+                <h3>Image Generation</h3>
+                <p>AI-powered image creation and editing tools</p>
+            </div>
+            <div class="category">
+                <i class="fas fa-video"></i>
+                <h3>Video Production</h3>
+                <p>Video generation and editing solutions</p>
+            </div>
+            <div class="category">
+                <i class="fas fa-code"></i>
+                <h3>Development</h3>
+                <p>Coding and automation tools</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Let's discuss how we can work together</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>rajaramana1911@gmail.com</p>
+                    <span class="info-detail">Available for inquiries 24/7</span>
+                </div>
+                <!-- <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91-63XXXXXX</p>
+                    <span class="info-detail">Mon - Fri, 9:00 - 18:00 IST</span>
+                </div> -->
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/rajaramanabayya/" target="_blank">View Profile</a></p>
+                    <span class="info-detail">Let's connect professionally</span>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/B-Anonymous-King" target="_blank">View Projects</a></p>
+                    <span class="info-detail">Check out my latest work</span>
+                </div>
+            </div>
+            <div class="contact-message">
+                <div class="message-content">
+                    <i class="fas fa-comments message-icon"></i>
+                    <h3>Looking forward to hearing from you</h3>
+                    <p>I'm always interested in hearing about new opportunities, collaborations, or just having a friendly chat about data analysis and AI.</p>
+                    <div class="availability">
+                        <i class="fas fa-clock"></i>
+                        <p>Response Time: Within 24 hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Alluri Seetha Ram. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rajaramanabayya/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/B-Anonymous-King" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
