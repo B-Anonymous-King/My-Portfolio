@@ -1,4 +1,3 @@
-````markdown name=README.md
 # My Portfolio
 
 Welcome to **My Portfolio** – a personal website showcasing my skills, projects, and professional journey.
