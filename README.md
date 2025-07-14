@@ -31,6 +31,4 @@ Visit my portfolio here:
 Feel free to fork this repository or submit pull requests with improvements and suggestions!
 
 ---
-
 Thank you for visiting!
-````
